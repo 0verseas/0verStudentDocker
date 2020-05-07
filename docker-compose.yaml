@@ -36,7 +36,7 @@ services:
       - ./nginx/:/etc/nginx/
       - /etc/letsencrypt:/etc/letsencrypt
       - /var/log/nginx:/var/log/nginx
-      - ./app:/var/www/html/0vevStudent/
+      - ./app:/var/www/html/0verStudent/
     networks:
       - mynet
     depends_on:
